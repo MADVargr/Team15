@@ -75,11 +75,11 @@ namespace Project_Starfighter
         }
 
 
-        // returns a new rectangle based on the position and size of our ship.
-        public Rectangle BoundingBox
-        {
-            get { return new Rectangle(iX, iY, 72, 16); }
-        }
+        //// returns a new rectangle based on the position and size of our ship.
+        //public Rectangle BoundingBox
+        //{
+        //    get { return new Rectangle(iX, iY, 72, 16); }
+        //}
 
         // constructor
         public Player(Texture2D texture)
@@ -99,23 +99,23 @@ namespace Project_Starfighter
             asSprite.Draw(sb, iX, iY, false);
         }
 
-        // update animation frames based on the values of iFacing and bThrusting.
-        public void Update(GameTime gametime)
-        {
-            if (iFacing == 0)
-            {
-                if (bThrusting)
-                    asSprite.Frame = 1;
-                else
-                    asSprite.Frame = 0;
-            }
-            else
-            {
-                if (bThrusting)
-                    asSprite.Frame = 3;
-                else
-                    asSprite.Frame = 2;
-            }
-        }
+        //// update animation frames based on the values of iFacing and bThrusting.
+        //public void Update(GameTime gametime)
+        //{
+        //    if (iFacing == 0)
+        //    {
+        //        if (bThrusting)
+        //            asSprite.Frame = 1;
+        //        else
+        //            asSprite.Frame = 0;
+        //    }
+        //    else
+        //    {
+        //        if (bThrusting)
+        //            asSprite.Frame = 3;
+        //        else
+        //            asSprite.Frame = 2;
+        //    }
+        //}
     }
 }

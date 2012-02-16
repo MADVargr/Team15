@@ -105,25 +105,25 @@ namespace Project_Starfighter
 
 
 
-        // update sprite animation
-        public void Update(GameTime gametime)
-        {
-            if (bAnimating)
-            {
-                // Accumulate elapsed time...
-                fElapsed += (float)gametime.ElapsedGameTime.TotalSeconds;
+        //// update sprite animation
+        //public void Update(GameTime gametime)
+        //{
+        //    if (bAnimating)
+        //    {
+        //        // Accumulate elapsed time...
+        //        fElapsed += (float)gametime.ElapsedGameTime.TotalSeconds;
 
-                // Until it passes our frame length
-                if (fElapsed > fFrameRate)
-                {
-                    // Increment the current frame, wrapping back to 0 at iFrameCount
-                    iCurrentFrame = (iCurrentFrame + 1) % iFrameCount;
+        //        // Until it passes our frame length
+        //        if (fElapsed > fFrameRate)
+        //        {
+        //            // Increment the current frame, wrapping back to 0 at iFrameCount
+        //            iCurrentFrame = (iCurrentFrame + 1) % iFrameCount;
 
-                    // Reset the elapsed frame time.
-                    fElapsed = 0.0f;
-                }
-            }
-        }
+        //            // Reset the elapsed frame time.
+        //            fElapsed = 0.0f;
+        //        }
+        //    }
+        //}
 
         public void Draw(   SpriteBatch spriteBatch,
                             int XOffset,

@@ -63,15 +63,16 @@ namespace Project_Starfighter_Test
             Assert.AreEqual(r, r2);
         }
 
-        [TestMethod]
-        public void Update_Test()
-        {
-            animatedSprite.IsAnimating = true;
-            animatedSprite.Elapsed = 1;
-            animatedSprite.Frame = 2;
-            animatedSprite.Update(gameTime);
-            Assert.IsTrue(3 == animatedSprite.Frame);
+        // for future releases
+        //[TestMethod]
+        //public void Update_Test()
+        //{
+        //    animatedSprite.IsAnimating = true;
+        //    animatedSprite.Elapsed = 1;
+        //    animatedSprite.Frame = 2;
+        //    animatedSprite.Update(gameTime);
+        //    Assert.IsTrue(3 == animatedSprite.Frame);
 
-        }
+        //}
     }
 }

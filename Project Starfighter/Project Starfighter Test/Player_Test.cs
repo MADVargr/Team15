@@ -68,23 +68,24 @@ namespace Project_Starfighter_Test
             Assert.IsTrue(3 == testplay.AccelerationRate);
         }
 
-        [TestMethod]
-        public void BoundingBox_Test()
-        {
-            Rectangle r = new Rectangle(11, 12, 72, 16);
-            testplay.X = 11;
-            testplay.Y = 12;
-            Assert.AreEqual(r, testplay.BoundingBox);
-        }
-        [TestMethod]
-        public void Update_Test()
-        {
-            testplay.Facing = 2;
-            testplay.Thrusting = true;
-            testplay.Update(gameTime);
+        // for future releases
+        //[TestMethod]
+        //public void BoundingBox_Test()
+        //{
+        //    Rectangle r = new Rectangle(11, 12, 72, 16);
+        //    testplay.X = 11;
+        //    testplay.Y = 12;
+        //    Assert.AreEqual(r, testplay.BoundingBox);
+        //}
+        //[TestMethod]
+        //public void Update_Test()
+        //{
+        //    testplay.Facing = 2;
+        //    testplay.Thrusting = true;
+        //    testplay.Update(gameTime);
 
-            Assert.IsTrue(3 == testplay.asSprite.Frame);
-        }
+        //    Assert.IsTrue(3 == testplay.asSprite.Frame);
+        //}
         //[TestMethod]
         //public void Draw_Test()
         //{
