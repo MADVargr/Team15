@@ -40,33 +40,33 @@ namespace Project_Starfighter_Test
             Assert.IsTrue(12 == testplay.Y);
         }
 
-        [TestMethod]
-        public void Facing_Test()
-        {
-            testplay.Facing = 1;
-            Assert.IsTrue(1 == testplay.Facing);
-        }
+        //[TestMethod]
+        //public void Facing_Test()
+        //{
+        //    testplay.Facing = 1;
+        //    Assert.IsTrue(1 == testplay.Facing);
+        //}
 
-        [TestMethod]
-        public void Thrusting_Test()
-        {
-            testplay.Thrusting = true;
-            Assert.IsTrue(true == testplay.Thrusting);
-        }
+        //[TestMethod]
+        //public void Thrusting_Test()
+        //{
+        //    testplay.Thrusting = true;
+        //    Assert.IsTrue(true == testplay.Thrusting);
+        //}
 
-        [TestMethod]
-        public void ScrollRate_Test()
-        {
-            testplay.ScrollRate = 2;
-            Assert.IsTrue(2 == testplay.ScrollRate);
-        }
+        //[TestMethod]
+        //public void ScrollRate_Test()
+        //{
+        //    testplay.ScrollRate = 2;
+        //    Assert.IsTrue(2 == testplay.ScrollRate);
+        //}
 
-        [TestMethod]
-        public void AccelRate_Test()
-        {
-            testplay.AccelerationRate = 3;
-            Assert.IsTrue(3 == testplay.AccelerationRate);
-        }
+        //[TestMethod]
+        //public void AccelRate_Test()
+        //{
+        //    testplay.AccelerationRate = 3;
+        //    Assert.IsTrue(3 == testplay.AccelerationRate);
+        //}
 
         // for future releases
         //[TestMethod]

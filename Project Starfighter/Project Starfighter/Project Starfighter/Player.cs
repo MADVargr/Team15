@@ -50,29 +50,29 @@ namespace Project_Starfighter
             set { iY = value; }
         }
 
-        public int Facing
-        {
-            get { return iFacing; }
-            set { iFacing = value; }
-        }
+        //public int Facing
+        //{
+        //    get { return iFacing; }
+        //    set { iFacing = value; }
+        //}
 
-        public bool Thrusting
-        {
-            get { return bThrusting; }
-            set { bThrusting = value; }
-        }
+        //public bool Thrusting
+        //{
+        //    get { return bThrusting; }
+        //    set { bThrusting = value; }
+        //}
 
-        public int ScrollRate
-        {
-            get { return iScrollRate; }
-            set { iScrollRate = value; }
-        }
+        //public int ScrollRate
+        //{
+        //    get { return iScrollRate; }
+        //    set { iScrollRate = value; }
+        //}
 
-        public int AccelerationRate
-        {
-            get { return iShipAccelerationRate; }
-            set { iShipAccelerationRate = value; }
-        }
+        //public int AccelerationRate
+        //{
+        //    get { return iShipAccelerationRate; }
+        //    set { iShipAccelerationRate = value; }
+        //}
 
 
         //// returns a new rectangle based on the position and size of our ship.
